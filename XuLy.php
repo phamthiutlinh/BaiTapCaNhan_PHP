@@ -25,7 +25,11 @@
     $SDT=$_POST['SDT'];
     $gioitinh=$_POST['gioitinh'];
     $quoctich=$_POST['quoctich'];
-    $cacmon=$_POST['cacmon'];
+    $php=$_POST['php'] ??"";
+    $csharp=$_POST['csharp'] ??"";
+    $xml=$_POST['xml'] ?? "";
+    $mysql=$_POST['mysql']?? "";
+    $python=$_POST['python']?? "";
     $ghichu=$_POST['ghichu'];
     
 ?>    
@@ -42,7 +46,7 @@
         <tr> Quốc tịch:
         <?php echo $quoctich ?><br> </tr>
         <tr> Các môn đã học:
-        <?php echo $cacmon ?><br> </td>
+        <?php echo $php . " " . $mysql . " " . $python . " " . $csharp . " " . $xml; ?><br> </td>
         <tr> Ghi chú:
         <?php echo $ghichu ?><br> </tr>
         <tr><a href="javascript:window.history.back(-1);"><font color="blue"><i><u>Quay Lại trang trước</i></u><font></a></tr>
