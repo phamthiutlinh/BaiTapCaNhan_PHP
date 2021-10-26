@@ -20,18 +20,7 @@ $dbc = @mysqli_connect (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
 mysqli_set_charset($dbc, 'utf8');?>
 
 
-<!-- <div id="menu">
-<ul>
-<li><a href="trangchu.php">Trang chủ</a></li>
-<li><a href="infostaff.php">Thông tin nhân viên</a></li>
-<li><a href="phongban.php">Thông tin phòng ban</a></li>
-<li><a href="loainv.php">Loại nhân viên</a></li>
-<li><a href="tracuu.php">Tìm kiếm</a></li>
-<li><a href="themthongtin.php">Thêm thông tin</a></li>
 
-
-</ul>
-</div> -->
  <div id="menu">
 <ul>
 	<li>
